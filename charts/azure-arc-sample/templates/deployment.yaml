@@ -25,7 +25,7 @@ spec:
       - name: {{.Release.Name}}
 #        image: arck8sconformance.azurecr.io/samples/demo:v0.1.0
 #        image: nginx:latest
-        image: httpd:latest
+        image: httpd:2.4.46
         imagePullPolicy: IfNotPresent
         ports:
 #        - containerPort: 8080
