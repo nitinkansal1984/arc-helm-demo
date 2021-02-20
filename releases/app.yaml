@@ -4,7 +4,7 @@ metadata:
   name: azure-arc-sample
   namespace: arc-k8s-demo
 spec:
-  releaseName: arc-k8s-demo
+  releaseName: arc-k8s-demo-2
   chart:
     git: https://github.com/nitinkansal1984/arc-helm-demo 
     ref: master
