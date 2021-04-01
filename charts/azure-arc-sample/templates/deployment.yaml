@@ -24,12 +24,12 @@ spec:
       containers:
       - name: {{.Release.Name}}
 #        image: arck8sconformance.azurecr.io/samples/demo:v0.1.0
-#        image: nginx:latest
-        image: httpd:2.4.46
+        image: nginx:latest
+#        image: httpd:2.4.46
         imagePullPolicy: IfNotPresent
         ports:
-#        - containerPort: 8080
-        - containerPort: 80
+        - containerPort: 8080
+#        - containerPort: 80
         resources:
           requests:
             memory: "50Mi"
